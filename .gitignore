@@ -15,3 +15,6 @@ docs/
 
 # Claude
 .claude
+
+# macOS
+.DS_Store
