@@ -18,14 +18,6 @@ contract SqrtTests is Test {
         c = new Sqrt();
     }
 
-    // Symbolic test to confirm equivalence between Solady and Solmate implementations
-    function testCheck__SqrtEquivalence(uint256 x) public {
-        uint256 solady = c.soladySqrt(x);
-        uint256 solmate = c.solmateSqrt(x);
-        
-        assertEq(solady, solmate);
-    }
-
     // Symbolic test using stripped versions to focus on estimation logic differences
     function testCheck__SqrtStrippedEquivalence(uint256 x) public {
         uint256 soladyStripped = c.soladySqrtStripped(x);

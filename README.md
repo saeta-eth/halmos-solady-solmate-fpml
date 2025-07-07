@@ -41,7 +41,6 @@ All available functions have been successfully verified through differential tes
 ### Key Testing Commands
 
 - `forge test` - Run all Foundry tests (46 tests, all passing)
-- `halmos --function testCheck__SqrtEquivalence` - Prove sqrt equivalence between libraries
 - `halmos --function testCheck__SqrtStrippedEquivalence` - Focused sqrt estimation logic verification
 - `halmos --function testCheck__UnsafeModEquivalence` - Verify unsafeMod ≡ rawMod cross-library mapping
 - `halmos --function testCheck__UnsafeDivEquivalence` - Verify unsafeDiv ≡ rawDiv cross-library mapping

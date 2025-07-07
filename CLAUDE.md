@@ -12,7 +12,6 @@ This is a differential verification project using Halmos (symbolic bounded model
 
 #### Equivalence Testing (Halmos)
 
-- `halmos --function testCheck__SqrtEquivalence` - Symbolic test of sqrt equivalence
 - `halmos --function testCheck__SqrtStrippedEquivalence` - Symbolic test of sqrt stripped estimation logic equivalence
 - `halmos --function testCheck__MulWadEquivalence` - Symbolic test of mulWad equivalence
 - `halmos --function testCheck__MulWadUpEquivalence` - Symbolic test of mulWadUp equivalence
